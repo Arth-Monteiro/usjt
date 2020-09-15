@@ -16,11 +16,21 @@ public class PrimosMil {
             lines.add(i);
         }
 
-        List<Integer> result = lines.stream()                // convert list to stream
-                .filter(line -> primos(line))     // we dont like mkyong
-                .collect(Collectors.toList());              // collect the output and convert streams to a List
+        List<Integer> result = lines.stream()    
+                .filter(line -> primos(line))    
+                .collect(Collectors.toList());   
 
-        result.forEach(System.out::println);  
+        // result.forEach(System.out::println);  -> imprime um numero por linha
+        // JOptionPane.showMessageDialog(null, result); -> teria que ajustar 
+                                                         //janela e valores para caberem na tela 
+                                                         // ou criar scrolls na janela
+                                                         
+        String msg = result.stream()
+                .map(number -> number.toString())
+                .collect(Collectors.joining(", "));
+        
+        msg += ".";
+        System.out.println(msg);
 
     }
     
