@@ -1,4 +1,4 @@
-package semana1.aula1;
+package prog_sol_comp.java.semana1.aula1;
 
 public class HelloWorld {
     public static void main (String[] args) {

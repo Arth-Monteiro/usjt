@@ -1,4 +1,4 @@
-package semana3.aula4;
+package prog_sol_comp.java.semana3.aula4;
 
 import javax.swing.JOptionPane;
 

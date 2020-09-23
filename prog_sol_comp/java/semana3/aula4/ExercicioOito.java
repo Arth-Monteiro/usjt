@@ -1,4 +1,4 @@
-package semana3.aula4;
+package prog_sol_comp.java.semana3.aula4;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;

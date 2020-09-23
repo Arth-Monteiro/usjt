@@ -1,4 +1,4 @@
-package semana4.aula5;
+package prog_sol_comp.java.semana4.aula5;
 
 public class ExercicioDois {
 
