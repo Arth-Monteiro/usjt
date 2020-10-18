@@ -1,3 +1,2 @@
-requisito funcional do que o sistema não deve fazer: emitir a autorização de entrada de funcionários e ou visitantes não validados pelo gerente.
-	
-Requisito não funcional relacionado a segurança onde somente um funcionário com credenciais de porteiro poderá cadastrar visitantes ou somente um funcionário com credenciais de gerente poderá cadastrar outros funcionários ou ainda somente um funcionário com credenciais de gerente poderá validar os funcionários e visitantes.
+Um requisito funcional é não emitir uma autorização de entrada de funcionários e/ou visitantes não validados pelo gerente. Já como requisito não funcional, relacionando a segurança, é somente funcionários com credenciais de porteiro poderá cadastrar visitantes, ou somente um
+funcionário com credenciais de gerente poderá cadastrar outros funcionários, ou ainda, somente um funcionário com credenciais de gerente poderá validar os funcionários e visitantes.
